@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню с большой вложенностью</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <ul class="root-nav">
+        <li>
+            <a href="http://www.google.ru">Google</a>
+        </li>
+        <li>
+            <span>Sub 2</span>
+            <ul>
+                <li><a href="#">Link 10</a></li>
+                <li><a href="#">Link 20</a></li>
+                <li><span> Sub 30</span>
+                    <ul>
+                        <li><a href="#">Link 10000</a></li>
+                        <li><a href="#">Link 20000</a></li>
+                        <li><a href="#">Link 30000</a></li>
+                        <li><a href="#">Link 40000</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Link 40</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="google.ru">link 3</a>
+        </li>
+        <li>
+            <span>Sub 4</span>
+            <ul>
+                <li><a href="#">Link 100</a></li>
+                <li><span>Sub 200</span>
+                    <ul>
+                        <li><a href="#">Link 100</a></li>
+                        <li><a href="#">Link 200</a></li>
+                        <li><span>Sub 300</span>
+                            <ul>
+                                <li><a href="#">Link 1000</a></li>
+                                <li><a href="#">Link 2000</a></li>
+                                <li><a href="#">Link 3000</a></li>
+                                <li><a href="#">Link 4000</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Link 400</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Link 300</a></li>
+                <li><a href="#">Link 400</a></li>
+            </ul>
+        </li>
+    </ul>
+    <!-- /.root-nav -->
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
